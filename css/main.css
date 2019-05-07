@@ -96,6 +96,102 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   /* General Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+
+}
+
+ul,
+ol {
+  font-weight: bold;
+  list-style: none;
+  text-transform: uppercase;
+
+
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+
+h2 {
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+h3,
+h4 {
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+p {
+  color: #e2e3ed;
+  font-weight: lighter;
+
+
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -107,6 +203,7 @@ header, footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 header {
@@ -126,6 +223,7 @@ header img {
 }
 
 header .header-divider {
+  color: #e2e3ed;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -142,12 +240,9 @@ header nav {
 header nav ul  {
   display: flex;
   justify-content: space-around;
-  width: 100px;
+  width: 100%;
 }
 
-header nav ul li {
-  text-decoration: none;
-}
 
 footer {
   flex-direction: column;
@@ -207,6 +302,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .features {
@@ -239,6 +335,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow:row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -253,12 +350,12 @@ aside {
 /******About Page******/
 
 
-
 .mission {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -266,6 +363,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -280,6 +378,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq-section .content-wrapper {
@@ -402,7 +501,7 @@ aside {
   }
 
   header nav {
-    width: 20%;
+    width: 30%;
   }
 
   header nav ul li {
@@ -412,6 +511,11 @@ aside {
   .header-divider {
     display: none;
   }
+
+  .hero-area h1 {
+    width: 80%;
+  }
+
 
   aside .content-wrapper {
     margin: 50px 0;
@@ -516,6 +620,10 @@ FAQ Page
 
 header .content-wrapper {
   width: 100%;
+}
+
+.hero-area h1 {
+  width: 80%;
 }
 
 .features article {
